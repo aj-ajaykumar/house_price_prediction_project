@@ -126,10 +126,12 @@ celerybeat.pid
 
 # Environments
 .HousingPredictorVenv
+.HousingPredictorVenv/
+HousingPredictorVenv/
 .env
 .venv
 env/
-venv/
+venv/s
 ENV/
 env.bak/ 
 venv.bak/
