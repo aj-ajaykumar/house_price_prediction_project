@@ -1,12 +1,13 @@
 from housing.entity.config_entity import DataIngestionConfig
-import sys,os
+from housing.entity.artifact_entity import DataIngestionArtifact
 from housing.exception import HousingException
 from housing.logger import logging
-from housing.entity.artifact_entity import DataIngestionArtifact
+import sys,os
+
 import tarfile
 import numpy as np
-from six.moves import urllib
 import pandas as pd
+from six.moves import urllib
 from sklearn.model_selection import StratifiedShuffleSplit
 
 class DataIngestion:
