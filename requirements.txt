@@ -2,6 +2,7 @@ numpy
 pandas
 Flask
 gunicorn
-sklearn
+scikit-learn
+dill
 pyYAML
 -e .
