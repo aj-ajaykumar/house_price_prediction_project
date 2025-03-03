@@ -2,9 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
-# manual locations  added
 saved_models/*
+# manual locations  added
+
 housing/artifact
 
 # C extensions
