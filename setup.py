@@ -3,7 +3,7 @@ from typing import List
 
 # declering variables for setup function
 PROJECT_NAME ='housing-predictor'
-VERSION = "0.0.4"
+VERSION = "0.0.14"
 AUTHOR = "Ajay Kumar"
 DESCRIPTION = "This is a Machine Learning project which is used to predict the house price"
 
@@ -11,7 +11,7 @@ REQUIREMENT_FILE_NAME = "requirements.txt"
 HYPHEN_E_DOT = "-e ."
 
 
-def get_requirements_list()->list[str]:
+def get_requirements_list()->List[str]:
     """
     Description: This function is going to return list of requirement
     mention in requirements.txt file
