@@ -58,4 +58,4 @@ jobs:
         tags: ${{ secrets.DOCKER_USERNAME }}/housing-project:latest
 
     - name: Image digest
-      run: echo ${{ steps.build-and-publish.outputs.dig
+      run: echo ${{ steps.build-and-publish.outputs.digest }}
